@@ -16,10 +16,13 @@ theme: readthedocs
 plugins:
     - search: {}
     - encryptcontent:
-        title_prefix: ''
-        global_password: 'buggsecretpass'
+        title_prefix: ""
+        password_button: True
+        password_button_text: 'Login'
+        remember_password: False # the entered credentials are not saved
         summary: "Password protected page"
         encryption_info_message: "Please enter a password below to access the full Bugg documentation"
+        global_password: buggtopsecret
 markdown_extensions:
   - attr_list
   - md_in_html
