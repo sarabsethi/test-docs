@@ -1,0 +1,7 @@
+# Troubleshooting
+
+
+## Common errors
+
+
+## FAQs

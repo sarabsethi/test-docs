@@ -1,0 +1,27 @@
+site_name: Bugg documentation
+site_url: https://sarabsethi.github.io/test-docs/
+nav:
+  - Home: index.md
+  - Quick start: quickstart.md
+  - Hardware: hardware.md
+  - Configuration file: config.md
+  - Audio: audio.md
+  - Connectivity: connectivity.md
+  - Power: power.md
+  - Time: time.md
+  - Troubleshooting: troubleshooting.md
+  - Advanced: advanced.md
+  - Contact: contact.md
+theme: readthedocs
+plugins:
+    - search: {}
+    - encryptcontent:
+        title_prefix: ''
+        global_password: 'bugg'
+        summary: "Password protected page"
+        encryption_info_message: "Please enter a password below to access the full Bugg documentation"
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: True
