@@ -4,7 +4,7 @@ nav:
   - Home: index.md
   - Quick start: quickstart.md
   - Hardware: hardware.md
-  - Configuration file: config.md
+  - Configuration: config.md
   - Audio: audio.md
   - Connectivity: connectivity.md
   - Power: power.md

@@ -10,7 +10,6 @@ To access the serial interface, connect USB power to pins X (5V+) and Y (5V-) an
 
 ## Modifying the firmware
 
-Bugg
 
 ### GitHub repository
 
