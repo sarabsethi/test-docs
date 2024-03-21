@@ -9,6 +9,8 @@ First, make sure you have all the required equipment:
 * Power source (5-36V DC, e.g., from mains or renewables)
 * Nano SIM with [mobile internet](connectivity.md)
 
+![Bugg quick start equipment](img/bugg-quick-start.png){ width="100%" }
+
 Then, set up a device with the following steps:
 
 1. Set up a microSD card with your Bugg [configuration](config.md)

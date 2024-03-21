@@ -1,6 +1,6 @@
 # Power
 
-Bugg devices should be powered via a stable 5-36V DC input through the M12 connector at the bottom of the device. 
+Bugg devices should be powered via a stable 5-36V DC input through the [M12 connector](hardware.md#power-connector) at the bottom of the device. 
 
 For testing purposes, the device can also be powered by USB. However, this is unstable and will result in a decrease in audio quality, so is not recommended for real deployments.
 

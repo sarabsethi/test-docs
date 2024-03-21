@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Bugg device loads its configuration from a `config.json` file which must be placed on the SD card which is inserted into the device. The name of the configuration file must be exact or the device will not be able to locate it.
+The Bugg device loads its configuration from a `config.json` file which must be placed on the microSD card [inserted into the device](hardware.md#side-door). The name of the configuration file must be exact or the device will not be able to locate it.
 
 A single `config.json` file can be used for multiple Buggs under the same project (assuming SIM cards are on similar plans). 
 
