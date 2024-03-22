@@ -31,11 +31,7 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
           <a href=".." class="icon icon-home"> Bugg documentation
-        </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
-  </form>
-</div>
+        </a>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
@@ -52,7 +48,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../config/">Configuration file</a>
+                <li class="toctree-l1"><a class="reference internal" href="../config/">Configuration</a>
                 </li>
               </ul>
               <ul>
@@ -70,6 +66,10 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Time</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#real-time-clock">Real-time clock</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#internet-time-updates">Internet time updates</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -108,13 +108,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <div id="mkdocs-encrypted-content" style="display:none">9dT+rGwYETOJ9Ft47056Cg==;z+8IGIP0qAn1GfE4AwvwSabCT3e6qIJV2mL7PDlRhhDDNhy1iiKt66sxNJNCFBA1dbZ/e9LlH53bHMi38TNB6Q2b7QeZuUSLdhOnLYlyVOMA5DV/YZ/h3OEjLc873muyrxZM++pqqD3mLkZF2IU75QC0b4XZvNIEuEu0O8hUw3JraKZw72gQMUu6ksQtGISabMvG+JnYdhifj+8r69Ahdw89eBLkSlJO5ccGg46QuaouecceOl1mVCyePOCSk3hUAOuTi9/FAiuTeOyhRM4go3wkUgq1DVPJ245TW+PT9KIV9biqidQWgmkoH4bLlWrQaKzwobI+i7lU6+OLu1B9FlAdZ4iaWh5Q+08J/T1xpgk=</div>
+                <div id="mkdocs-encrypted-content" style="display:none">GY34EbbsHXIMHu5cgbRoZA==;ArqELJ86FGI0tZbk5CMajnT1MGTQSlcgl+8QhC1y8YX/ykOAZbhB0cMNOG4pHUrhXS5b+kueQ8uiFfJCMLhgn2nD/mKMCvKIujN8ytX6ztsLBLsZJ/AvschuAFoXQXvKcR8rhAuuM6aupK1EoQvKBe+hnUae5R2ADw/OlzLpkcxcuTq686NqaITD419+0KAPCBRnmGCMKHN4Ijh9+lajjxyuBg24Z2PUX6Kk0IUTByfU34qRz4GrRlKmBOYJccxLFhuBTpA/e8DjQB81+HVZISlYGn/5RUXJoEwqSJfaWY3gQbD+hpmu4hRojAOPIzFxTmCF9r9oc1iY2jpBa2Ri4MM6943f3SagAhA5fsczXwzF+rZMTiDAIude+cwXnyXMGAwsCvoRttKeqwOiG2uPA5ZF4PjD3IFXesAx/C+NvI4lo5M7+8ciT09/Cb3VTnW2bhbgjeYdK2fWd65IHhiv3FtsV/FOG5VTSddl6ValrV0=</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form">
         <h1>Password protected page</h1>
         <p>Please enter a password below to access the full Bugg documentation</p>
         <input type="password" id="mkdocs-content-password" placeholder="Password">
-        
+        <button id="mkdocs-decrypt-button">Login</button>
         <p id="mkdocs-decrypt-msg"></p>
     </form>
 </div>
@@ -123,7 +123,7 @@
 var encryptcontent_id = "encryptcontent_1";
 var encryptcontent_path = "test-docs/time/";
 var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["mteY+P6rCbIcT89pkrvfxA==;wA2P39F+BUaS/BeCnSQ8BE8/+O2rOakBFjwVOYxWlYbywh3iLUeNI7ufUFs6pYH2l3Ddk6WktLE0fkLgZRBMAZUAR9aLouYrrm9S0McpDsOH2kI5np1KvI8ACS5ree73;9iwKm9G0rg356Rf/FMHuKw=="];
+var encryptcontent_keystore = ["FuiS1ZxbXZouv/KYCHe2XQ==;uWQ9h+kLYrAVWGOV0Av9q1chBtxCqwPF1PMkf11Rf/52EX+uDZHB5KTu0IPI/3li956bBF8vbcRL5g7xWqqBjIjrBEJVTC0Ay5hNDnpw8KvCQSDtkIM5ii+jcFBAJ/oY;QRUbT0lXZNaACkCGxFBg9Q=="];
 var encryptcontent_obfuscate = 0;
 
 </script>
@@ -174,7 +174,6 @@ var encryptcontent_obfuscate = 0;
     <script>var base_url = "..";</script>
     <script src="../js/theme_extra.js"></script>
     <script src="../js/theme.js"></script>
-      <script src="../search/main.js"></script>
     <script>
         jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);

@@ -14,7 +14,6 @@ nav:
   - Contact: contact.md
 theme: readthedocs
 plugins:
-    - search: {}
     - encryptcontent:
         title_prefix: ""
         password_button: True

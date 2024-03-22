@@ -2,7 +2,7 @@
 
 ## Overview
 
-The key exterior elements of Bugg are annotated in the pictures below.
+Bugg's key exterior features are annotated below:
 
 ![Top view of Bugg device](img/bugg-v2-top.png){align=left, width=50%}![Side view of Bugg device](img/bugg-v2-side-annotate.png){align=right, width=50%} 
 
@@ -42,7 +42,7 @@ Bugg receives power through a waterproof M12 connector at the bottom of the devi
 
 In the above image, the knurled ring is used to screw the two connectors together. However, the exact rotating part may vary between cable batches. Please do not skip this step, as otherwise the cable will easily fall out and the connection will not be waterproof. 
 
-## Status Lights
+## Status LEDs
 
 Bugg communicates its status through three RGB LEDs on the front of the device, situated below the microphone. From top to bottom, the LEDs correspond to **recording**, **connectivity**, and **power**, respectively.
 
