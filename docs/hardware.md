@@ -30,17 +30,28 @@ Both cards should be inserted with the metal contacts facing downwards. Push the
 To remove the cards, push the cards into the device until you hear a click, then release and they will push themselves partly out of the device. You can then pull them out fully easily by hand.  
 
 
-## Power connector
+## M12 connector
 
-Bugg receives power through a waterproof M12 connector at the bottom of the device. To connect a Bugg to its power cable:
+Through a waterproof M12 connector at the bottom of Bugg, the device is able to receive [power](power.md), connect to an [external microphones](audio.md#external-microphones), or expose a [debugging](advanced.md) interface.
 
-* Align the M12 male connector on the power cable with the female M12 connector on Bugg
+### Connecting a cable 
+
+To connect a Bugg to an M12 male cable (e.g., for power):
+
+* Align the M12 male connector on the cable with the female M12 connector on Bugg
 * Push the two connectors together firmly
 * Screw the cable connector fully into the Bugg connector by rotating the appropriate part until there are no threads visible 
 
 ![Bugg power connector](img/bugg-power-connector.png){align=left, width=100%}
 
 In the above image, the knurled ring is used to screw the two connectors together. However, the exact rotating part may vary between cable batches. Please do not skip this step, as otherwise the cable will easily fall out and the connection will not be waterproof. 
+
+### Pinout
+
+The full pinout of the Bugg M12 interface is provided below. 
+
+![Bugg M12 8-way pinout](img/bugg-m12-8way-pinout.png){ width="100%" }
+
 
 ## Status LEDs
 

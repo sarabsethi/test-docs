@@ -4,7 +4,7 @@
 
 By default, Bugg is designed to record compressed MP3 audio files continuously (24/7) without breaks between recordings. 
 
-Bugg runs concurrent threads to handle simultaneous recording and compressing/uploading of audio. If enabled, compression begins immediately after the audio file has finished recording. To manage CPU load, uploads always begin out-of-sync with the audio recording loop.
+Bugg runs concurrent threads to handle simultaneous recording and compressing/uploading of audio data. If enabled, compression begins immediately after the audio file has finished recording. To manage CPU load, [server uploads](connectivity.md) are always begun out-of-sync with the audio recording loop.
 
 The default recording cycle behaviour (300s files, compression enabled) is depicted below:
 
